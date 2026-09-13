@@ -1998,3 +1998,6 @@ p {
 
     color: var(--white);
 }
+.contact-section {
+    background-position: 42% center;
+}
