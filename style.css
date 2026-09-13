@@ -158,13 +158,13 @@ p {
 
     font-family: var(--heading-font);
 
-    font-size: 0.75rem;
+    font-size: 0.9rem;
 
     font-weight: 800;
 
     text-transform: uppercase;
 
-    letter-spacing: 0.16em;
+    letter-spacing: 0.14em;
 }
 
 
@@ -342,37 +342,21 @@ p {
 
     align-items: center;
 
-    gap: 12px;
+    gap: 14px;
 
     flex-shrink: 0;
 }
 
 
-.brand-mark {
+.brand-logo {
 
-    width: 54px;
+    width: 72px;
 
-    height: 54px;
+    height: 72px;
 
-    display: flex;
+    object-fit: contain;
 
-    align-items: center;
-
-    justify-content: center;
-
-    border-radius: 50%;
-
-    background: var(--navy);
-}
-
-
-.brand-mark svg {
-
-    width: 31px;
-
-    height: 31px;
-
-    fill: var(--white);
+    flex-shrink: 0;
 }
 
 
@@ -1410,11 +1394,13 @@ p {
 }
 
 
-.footer-brand .brand-mark {
+.footer-logo {
 
-    width: 46px;
+    width: 64px;
 
-    height: 46px;
+    height: 64px;
+
+    object-fit: contain;
 }
 
 
@@ -1748,19 +1734,11 @@ p {
     }
 
 
-    .brand-mark {
+    .brand-logo {
 
-        width: 44px;
+        width: 58px;
 
-        height: 44px;
-    }
-
-
-    .brand-mark svg {
-
-        width: 25px;
-
-        height: 25px;
+        height: 58px;
     }
 
 
@@ -1771,6 +1749,14 @@ p {
 
     .brand-copy small {
         font-size: 0.56rem;
+    }
+
+
+    .eyebrow {
+
+        font-size: 0.82rem;
+
+        letter-spacing: 0.12em;
     }
 
 
